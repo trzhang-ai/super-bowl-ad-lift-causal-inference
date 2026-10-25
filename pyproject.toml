@@ -1,0 +1,18 @@
+[project]
+name = "super-bowl-ad-lift-causal-inference"
+version = "0.1.0"
+description = "Estimating the incremental effect of a TV ad on brand search demand using causal inference methods."
+readme = "README.md"
+authors = [
+    { name = "james.zhang", email = "32316075+trzhang-ai@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.15.0",
+]
